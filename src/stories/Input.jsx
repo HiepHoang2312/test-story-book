@@ -10,7 +10,7 @@ export const Input = ({
   return (
     <>
       <input
-        type={"type"}
+        type={type}
         placeholder={placeholder}
         className={["storybook-input", `storybook-input--${size}`].join(" ")}
         style={backgroundColor && { backgroundColor }}
