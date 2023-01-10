@@ -1,6 +1,8 @@
 import PropTypes from "prop-types";
+
 import "./card.css";
-export const Card = ({ heading, content, image, border }) => {
+
+export const Card = ({ heading, content, image, border, headingColor }) => {
   return (
     <div className="warp">
       <div className="">
@@ -9,7 +11,9 @@ export const Card = ({ heading, content, image, border }) => {
             <img alt="Card" src={image} />
           </div>
           <div className="">
-            <h2 className="Heading">{heading}</h2>
+            <h2 className="Heading" style={{ color: `${headingColor}` }}>
+              {heading}
+            </h2>
             <p className="Content">{content}</p>
           </div>
         </div>
@@ -17,7 +21,12 @@ export const Card = ({ heading, content, image, border }) => {
     </div>
   );
 };
+
 Card.propTypes = {
+  /**
+   * What heading color to use
+   */
+  headingColor: PropTypes.string,
   /**
    * heading:""
    */
@@ -37,6 +46,7 @@ Card.propTypes = {
 };
 
 Card.defaultProps = {
+  headingColor: "#0062c3",
   image:
     "https://www.thinkcompany.com/wp-content/uploads/2021/10/Be-kind-to-people.png",
   border: "shadow",

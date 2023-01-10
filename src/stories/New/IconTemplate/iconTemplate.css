@@ -1,0 +1,14 @@
+.tco-icon-meta {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.tco-icon-set {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  list-style: none;
+}
+.tco-icon-set.tco-icon-set--horizontal {
+  flex-flow: row wrap;
+}

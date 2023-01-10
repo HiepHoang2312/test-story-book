@@ -4,7 +4,8 @@ export default {
   title: "New/Card",
   component: Card,
 };
-export const Default = (args) => (
+
+export const Summary = (args) => (
   <>
     <Card {...args}></Card>
   </>
