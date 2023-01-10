@@ -1,0 +1,21 @@
+.storybook-input {
+  color: #333;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  border-radius: 6px;
+}
+
+.storybook-input--small {
+  font-size: 14px;
+  padding: 4px 11px;
+}
+
+.storybook-input--medium {
+  font-size: 14px;
+  padding: 10px 10px;
+}
+
+.storybook-input--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
