@@ -1,6 +1,6 @@
-import "./iconTemplate.css";
-
 import PropTypes from "prop-types";
+
+import "./iconTemplate.css";
 
 export const IconTemplate = ({ layout, color }) => {
   return (

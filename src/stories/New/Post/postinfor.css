@@ -1,0 +1,36 @@
+.post-info,
+.post-info-share {
+  display: flex;
+  align-items: center;
+}
+
+.post-info {
+  justify-content: space-between;
+  padding: 32px 0;
+}
+
+.type-eyebrow {
+  color: inherit;
+  font-weight: 900;
+  font-size: 16px;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.post-info-category-link {
+  font-size: 18px;
+}
+
+.post-info-share-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.post-info-share-list > li {
+  margin-left: 8px;
+}

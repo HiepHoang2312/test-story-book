@@ -1,5 +1,7 @@
-import "./input.css";
 import PropTypes from "prop-types";
+
+import "./input.css";
+
 export const Input = ({
   type,
   placeholder,

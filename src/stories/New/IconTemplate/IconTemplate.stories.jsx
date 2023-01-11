@@ -12,6 +12,7 @@ export const Vertical = (args) => (
 );
 
 export const Horizontal = Vertical.bind({});
+
 Horizontal.args = {
   layout: "horizontal",
   color: "#a0fff0",
